@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+P{
+    color: #555;
+}
+.Container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.cart{
+    width: 30px;
+    height: 30px;
+}
+/* .header .row{
+    margin-top: 70px;
+} */
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media only screen and (max-width:800px){
+
+    nav ul{
+        position: absolute;
+        top:  70px;
+        left: 0;
+        background: #333;
+        width: 650px;
+        overflow: hidden;
+        transition: max-height 0.5;
+    }
+     nav ul li{
+         display: block;
+         margin-right: 50px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+     }
+     nav ul li a{
+         color: #fff;
+     }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width:450px){
+
+    nav ul{
+        position: absolute;
+        top:  70px;
+        left: 0;
+        background:orangered;
+        width: 350px;
+        overflow: hidden;
+        transition: max-height 0.5;
+    }
+     nav ul li{
+         display: block;
+         margin-right: 50px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+     }
+     nav ul li a{
+         color:orangered;
+     }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align:center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+}
+/* .Nav
+{
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+
+}
+.Nav Link
+{
+   color:white ;
+   text-align: center;
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+    padding: 14px 28px;
+}
+.Nav :Link:hover
+{
+    background-color: white;
+    color:black;
+}
+@media screen and (max-width: 700px)
+{
+    .Nav
+    {
+        flex-direction: column;
+    }
+} */

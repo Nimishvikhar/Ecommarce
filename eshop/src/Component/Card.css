@@ -1,0 +1,30 @@
+
+#linkk{
+    text-decoration: none;
+    
+}
+.card{
+    width: 22rem;
+    height: 300px;
+}
+.disable_card {
+    pointer-events: none;
+    opacity: 0.5;
+}
+.card_img{
+    width: 80px;
+    height: 100px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+.btn{
+    width: 250px;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    /* text-align: center; */
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+}

@@ -1,0 +1,22 @@
+.sing{
+    width: 25%;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+
+}
+.sing-1{
+    width: 25%;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-top: 10%;
+    text-align:"center"
+}
+.sing-2{
+    text-align: center;
+}
+.sing-3{
+    margin-top: 60px;
+    background: green;
+}
